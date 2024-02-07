@@ -36,7 +36,7 @@ regressor_Fin_Vs = joblib.load('ML_Models/RF/RF_Failure_Vs.pkl')
 #%% Activation functions
 def Press(): #This function is called when the button is pressed
     A=[Nx,Ny,Lx,Ly,Fc,w,Bcol,Hcol,Bbeam,Hbeam,AMcol,AMbeam_TOP,AMbeam_BOTTOM]#Vector with the user values
-    At=["Nx","Ny","Lx","Ly","Fc","w","Bcol","Hcol","Bbeam","Hbeam","AMcol","AMbeam_TOP","AMbeam_BOTTOM"]
+    At=["Nx","Ny","Lx","Ly","Fc","w","Bcol","Hcol","Bbeam","Hbeam","ρc","ρb-top","ρb-bot"]
     Check=[]
     Range=[[2,5],[2,5],[4,8],[2.5,4],[17000,35000],[10,30],[0.25,0.5],[0.25,0.5],[0.25,0.5],[0.3,0.65],[0.0112198,0.0278204],[0.0051,0.0124898],[0.0034,0.009088]]#Allowed range
     NY=int(Ny.get());NX=int(Nx.get());LY=float(Ly.get());LX=float(Lx.get());FC=float(Fc.get());W=float(w.get());B_COL=float(Bcol.get());H_COL=float(Hcol.get());B_VIG=float(Bbeam.get());H_VIG=float(Hbeam.get());CUANTIA_VIG_SUP=float(AMbeam_TOP.get());CUANTIA_VIG_INF=float(AMbeam_BOTTOM.get());CUANTIA_COL=float(AMcol.get());
