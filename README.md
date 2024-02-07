@@ -3,6 +3,7 @@
 
  Librearies to install and versions:
  Tkinter (8.6),
+ Scikit-Learn (1.2.1)
  Joblib (1.3.2) and
  Keras (2.12.0)
 
