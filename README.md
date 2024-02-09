@@ -9,7 +9,7 @@ Graphical User Interface (GUI) expected to be used by practitioners to quickly c
    *Keras (wite in console: pip install --user keras==2.12.0)
 3. Restart the kernel (or close and open again the IDE).
 4. Run the entire code.
-5. Enter your input data in the boxes, taking into account the model ranges presented in "Table 5. Input parameters" (from the paper "Machine Learning – based approach for predicting pushover curves of low-rise reinforced concrete frame buildings").
+5. Enter your input data in the boxes, taking into account the model ranges presented in "Table 5. Input parameters" (from the paper "Machine Learning – based approach for predicting pushover curves of low-rise reinforced concrete frame buildings"). The ranges supporter by the GUI are: Nx (2-5), Ny (2-5), Lx (4-8), Ly (2.5-4), Fc (17000-35000), W (10-30), Bcol/Hcol/Bbeam (0.25-0.5), Hbeam (0.3-0.65), ρc (0.01122-0.02782), ρb-top (0.0051-0.0125) and ρb-bot (0.0034-0.0091).
 6. Press the Predict button.
    6.1. If an error occurs or the seismic code consideration are not accomplished, a message is presented and the values must be changed 
         until the error or warning are cprrected.
