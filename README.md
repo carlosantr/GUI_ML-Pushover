@@ -1,6 +1,7 @@
 # GUI_ML-Pushover
 Graphical User Interface (GUI) expected to be used by practitioners to quickly carry out an approximated pushover curve that provides relevant information on the seismic capacity of low-rise RC frame buildings, using RF and ANN Machine Learning models. The next steps are required to run the GUI:
 
+0. Download the repository as a zip file and extract the elements on your own PC.
 1. Open the code called "GUI.py" in a Python IDE (Spyder 5.4.3 is recommended)
 2. Installation of libraries: You have to install from your console in python the next libraries:
    *Scikit-Learn (write in console: pip install --user scikit-learn==1.2.1)
