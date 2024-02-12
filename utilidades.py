@@ -8,10 +8,8 @@ Created on Wed Jul 13 11:33:00 2022
 #Opensees y comprobaciones de norma.
 
 #%%Importando librerias necesarias
-from openseespy.opensees import *
 import matplotlib.pyplot as plt
 import numpy as np
-import opsvis as opsv
 import pandas as pd
 
 #%%MomentCurvature y TestMaterial
